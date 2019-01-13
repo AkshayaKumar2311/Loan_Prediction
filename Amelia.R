@@ -1,10 +1,10 @@
 #working director
-setwd('C:\\Users\\Chandu\\Desktop\\IMAR DATA\\loan prediction')
+setwd('D:\\Data Science\\Loan Predication')
 getwd()
 
 #import train and test use na.strins='' it will impute as NA
-train_dataset <- read.csv('train_u6lujuX_CVtuZ9i.csv',header = TRUE,sep = ",",na.strings = '')
-test_dataset <- read.csv('test_Y3wMUE5_7gLdaTN.csv', header = TRUE, sep = ",",na.strings = '')
+train_dataset <- read.csv('TrainLoanData.csv',header = TRUE,sep = ",",na.strings = '')
+test_dataset <- read.csv('TestLoanData.csv', header = TRUE, sep = ",",na.strings = '')
 
 str(train_dataset)
 str(test_dataset)
